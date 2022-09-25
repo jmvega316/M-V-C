@@ -19,13 +19,13 @@
     "watch": "nodemon server.js",
     "seed": "node seeds"
   },
-  "name": "justice-league-vs-avengers",
+  "name": "nintendo-mvc",
   "description": "As USER I want to log into an app and create a blog post",
   "version": "1.0.0",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yahplee/justice-league-vs-avengers.git"
+    "url": "git+https://github.com/jmvega316/M-V-C"
   },
   "keywords": [],
   "author": "",
