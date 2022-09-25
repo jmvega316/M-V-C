@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nintendo fan Post Blog </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header> 
+      
+        <nav>
+          <a href="/">Homepage</a>
+          <a href="/dashboard" style = "color:blue"  >Dashboard</a>
+          <a href="/follow" style = "color:blue">Follow</a>
+          {{#if loggedIn}}
+          <button id="logout" class="btn-no-style">Logout</button>
+          {{else}}
+          <a href="/login">Login</a>
+          {{/if}}
+        </nav>
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+       
+        <img src="/images/download.png" alt="Nintendo logo" width = "70%" height = "70%" style="margin-left: 15%; margin-bottom: 5%; border-style:solid; border-width:20px"  >
+  </div>
+  
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
