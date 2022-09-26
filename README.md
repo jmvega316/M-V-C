@@ -1,14 +1,11 @@
-# justice league vs avengers
+# Nintendo
 
 ![license badge](https://img.shields.io/badge/license-MPL2.0-brightgreen.svg)
 
 ## Description
+Nintendo is respomnsible for our childhood. so feel free to share your love for nintendo and all that it brings.
 
-The age-old questions: Marvel or DC Comics? Avengers or Justice League? Who will win? Wouldn't you like to come and see which team will be left standing?
-
-We wanted to create an application to allow users utilize a blog application to defend their champions and heroes. The users will be able to create blog posts, access all blog posts, edit their blog posts by updating or deleting the posts, and comment on any blog posts. The users will be required to sign in to perform all of the functions listed besides accessing all of the blog posts. At the end of the day, the users may choose to log out of the blog for security.
-
-You may find the link to the deployed application [here](https://justice-league-vs-avengers.herokuapp.com/).
+You may find the link to the deployed application [here](https://nintendo-mvc.herokuapp.com/).
 
 ## Table of Contents
 
